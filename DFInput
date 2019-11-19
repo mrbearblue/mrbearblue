@@ -1,0 +1,15 @@
+public class DFInput {
+	private String fruitName;
+	private String fruitAbility;
+	private String fruitType;
+
+	public DFInput (String name, String ability, String type) {
+		fruitName = name;
+		fruitAbility = ability;
+		fruitType = type;
+	}
+
+	public String toString () {
+		return "Fruit Name: " + fruitName + "\n Fruit Ability: " + fruitAbility + "\n Fruit Type: " + fruitType;
+	}
+}
