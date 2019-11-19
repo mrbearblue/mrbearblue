@@ -1,0 +1,100 @@
+import java.util.Scanner;
+
+public class DevilFruitDatabase {
+	public static void main(String[] args) {
+		String dFruit;
+		Scanner scan = new Scanner(System.in);
+		DFInput fruit1 = new DFInput("Gomu Gomu no Mi", "Rubber", "Paramecia");
+		DFInput fruit2 = new DFInput("Bara Bara no Mi", "Chop", "Paramecia");
+		DFInput fruit3 = new DFInput("Moku Moku no Mi", "Smoke", "Logia");
+		DFInput fruit4 = new DFInput("Sube Sube no Mi", "Smooth", "Paramecia");
+		DFInput fruit5 = new DFInput("Hiso Hiso no Mi", "Whisper", "Paramecia");
+		DFInput fruit6 = new DFInput("Kama Kama no Mi", "Sickle", "Paramecia");
+		DFInput fruit7 = new DFInput("Bomu Bomu no Mi", "Bomb", "Paramecia");
+		DFInput fruit8 = new DFInput("Kilo Kilo no Mi", "Kilo", "Paramecia");
+		DFInput fruit9 = new DFInput("Doru Doru no Mi", "Wax", "Paramecia");
+		DFInput fruit10 = new DFInput("Baku Baku no Mi", "Munch", "Paramecia");
+		DFInput fruit11 = new DFInput("Ushi Ushi no Mi: Model Bison", "Bison", "Zoan");
+		DFInput fruit12 = new DFInput("Hito Hito no Mi", "Human", "Zoan");
+		DFInput fruit13 = new DFInput("Mane Mane no Mi", "Copy", "Paramecia");
+		DFInput fruit14 = new DFInput("Mera Mera no Mi", "Flame", "Logia");
+		DFInput fruit15 = new DFInput("Tori Tori no Mi: Model Falcon", "Falcon", "Zoan");
+		DFInput fruit16 = new DFInput("Hana Hana no Mi", "Bloom", "Paramecia");
+		DFInput fruit17 = new DFInput("Suna Suna no Mi", "Sand", "Logia");
+		DFInput fruit18 = new DFInput("Mogu Mogu no Mi", "Mole", "Zoan");
+		DFInput fruit19 = new DFInput("Inu Inu no Mi: Model Dachshund", "Dachshund", "Zoan");
+		DFInput fruit20 = new DFInput("Supa Supa no Mi", "Slice", "Paramecia");
+		DFInput fruit21 = new DFInput("Toge Toge no Mi", "Spike", "Paramecia");
+		DFInput fruit22 = new DFInput("Inu Inu no Mi: Model Jackal", "Jackal", "Zoan");
+
+		System.out.println("Input a fruit ability: ");
+		dFruit = scan.nextLine();
+		if (dFruit.contentEquals("Rubber")) {
+			System.out.println(fruit1);
+		}
+		else if (dFruit.contentEquals("Chop")) {
+			System.out.println(fruit2);
+		}
+		else if (dFruit.contentEquals("Smoke")) {
+			System.out.println(fruit3);
+		}
+		else if (dFruit.contentEquals("Smooth")) {
+			System.out.println(fruit4);
+		}
+		else if (dFruit.contentEquals("Whisper")) {
+			System.out.println(fruit5);
+		}
+		else if (dFruit.contentEquals("Sickle")) {
+			System.out.println(fruit6);
+		}
+		else if (dFruit.contentEquals("Bomb")) {
+			System.out.println(fruit7);
+		}
+		else if (dFruit.contentEquals("Kilo")) {
+			System.out.println(fruit8);
+		}
+		else if (dFruit.contentEquals("Wax")) {
+			System.out.println(fruit9);
+		}	
+		else if (dFruit.contentEquals("Munch")) {
+			System.out.println(fruit10);
+		}	
+		else if (dFruit.contentEquals("Bison")) {
+			System.out.println(fruit11);
+		}	
+		else if (dFruit.contentEquals("Human")) {
+			System.out.println(fruit12);
+		}	
+		else if (dFruit.contentEquals("Copy")) {
+			System.out.println(fruit13);
+		}
+		else if (dFruit.contentEquals("Flame")) {
+			System.out.println(fruit14);
+		}
+		else if (dFruit.contentEquals("Falcon")) {
+			System.out.println(fruit15);
+		}
+		else if (dFruit.contentEquals("Bloom")) {
+			System.out.println(fruit16);
+		}
+		else if (dFruit.contentEquals("Sand")) {
+			System.out.println(fruit17);
+		}
+		else if (dFruit.contentEquals("Mole")) {
+			System.out.println(fruit18);
+		}
+		else if (dFruit.contentEquals("Dachshund")) {
+			System.out.println(fruit19);
+		}
+
+		else if (dFruit.contentEquals("Slice")) {
+			System.out.println(fruit20);
+		}
+		else if (dFruit.contentEquals("Spike")) {
+			System.out.println(fruit21);
+		}
+		else if (dFruit.contentEquals("Jackal")) {
+			System.out.println(fruit22);
+		}
+	}
+}
