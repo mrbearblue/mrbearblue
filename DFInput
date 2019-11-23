@@ -9,7 +9,17 @@ public class DFInput {
 		fruitType = type;
 	}
 
+	public boolean contains (String dFruit) {
+		if (dFruit.equals(fruitAbility)) {
+			return true;
+		}
+		else {
+			return false;
+		}
+	}
+	
 	public String toString () {
 		return "Fruit Name: " + fruitName + "\n Fruit Ability: " + fruitAbility + "\n Fruit Type: " + fruitType;
 	}
+
 }
